@@ -143,7 +143,9 @@ setup(
 
     ##  package data;
     ##
-    ##  this is a dict mapping package names to lists of glob patterns;
+    ##  this is a dict mapping package names to a list of relative path names
+    ##  (or glob patterns) that should be copied into the package when
+    ##  installed; the path names are interpreted relative to the package dir;
     ##
     package_data={
         'sample': ['*.bin'],

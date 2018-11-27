@@ -171,7 +171,10 @@ setup(
     ##  this is a list of packages that this project depends on; these packages
     ##  will be installed by pip when this project is installed;
     ##
-    install_requires=['numpy', 'scipy'],
+    install_requires=[
+        'numpy',
+        'scipy',
+    ],
 
     ##  extra package dependencies;
     ##

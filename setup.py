@@ -81,7 +81,7 @@ setup(
     ##
     ##  <https://packaging.python.org/specifications/core-metadata/#summary>
     ##
-    description='a sample project',
+    description='a sample project;',
 
     ##  a longer description shown on project homepage on pypi;
     ##
@@ -120,6 +120,7 @@ setup(
         ##  topic;
         'Topic :: Desktop Environment',
 #        'Topic :: Games/Entertainment',
+#        'Topic :: Multimedia',
 #        'Topic :: Office/Business',
 #        'Topic :: Scientific/Engineering',
 #        'Topic :: Software Development',
